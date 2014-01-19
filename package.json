@@ -1,0 +1,41 @@
+{
+  "name": "askroulette",
+  "version": "0.0.1",
+  "description": "Ask a question get a question",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dordille/askroulette.git"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "coffee-script": "~1.6.x",
+    "mongoose": "~3.6.x",
+    "redis": "latest",
+    "jade": "*",
+    "stylus": "*",
+    "passport": "*",
+    "passport-tumblr": "*",
+    "brunch": "latest",
+    "shortid": "*",
+    "connect-redis": "~1.4.5",
+    "mongodb": "latest",
+    "express-spa-router": "0.0.5",
+    "tumblr.js": "latest",
+    "commander": "~2.1.0",
+    "mongoose-times": "~0.1.0"
+  },
+  "devDependencies": {
+    "node-dev": "2.x.x",
+    "mocha": "latest",
+    "should": "latest",
+    "pow-mongoose-fixtures": "latest"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

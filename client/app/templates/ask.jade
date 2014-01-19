@@ -1,0 +1,10 @@
+.ask
+  .question
+    .tumblelog
+      .avatar_container
+        .avatar_frame
+          img.avatar(src=ask.asker.avatars['64'])
+      p.tumblelog_name= ask.asker.username
+    textarea.answer_input(type='text', name='response')
+  .buttons
+    button.ask_button(name='ask', value='ask', id='ask') Ask

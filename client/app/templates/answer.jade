@@ -1,0 +1,18 @@
+.ask
+  .question
+    .tumblelog
+      .avatar_container
+        .avatar_frame
+          img.avatar(src=ask.asker.avatars['64'])
+      p.tumblelog_name= ask.asker.username
+    .question_text.text= ask.question_text
+  .response
+    textarea.answer_input(type='text', name='response')
+    .tumblelog
+      .avatar_container
+        .avatar_frame
+          img.avatar(src=ask.responder.avatars['64'])
+      p.tumblelog_name= ask.responder.username
+  .buttons
+    button.skip_button(name='skip', value='skip', id='skip') Skip
+    button.answer_button(name='submit', value='submit', id='submit') Answer

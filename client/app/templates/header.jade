@@ -1,0 +1,11 @@
+.header
+  a(href="/")
+    .circle
+      p.title So Skip It
+  .callout
+    p Ask a question. Get a question.
+  .user
+    if user
+      a(href="/auth/logout") Logout
+    else
+      a(href="/auth/login") Login
