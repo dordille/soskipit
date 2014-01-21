@@ -43,7 +43,7 @@ module.exports = (mongoose, redis) ->
     @responder.tumblr().answer @responder.tumblelog, { 
       answer: @response_text, 
       post_id: @ask_post.id,
-      source_url: 'http://soskipit.com/ask/' + @id,
+      source_url: 'http://soskip.it/ask/' + @id,
       tags: 'soskipit'
     },
     (err, res) =>

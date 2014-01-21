@@ -23,7 +23,7 @@ switch env
       host: process.env.REDIS_HOST
       auth: process.env.REDIS_AUTH
 
-    tumblr.callbackURL = 'http://soskipit.com/auth/tumblr/callback'
+    tumblr.callbackURL = 'http://soskip.it/auth/tumblr/callback'
     
 
 module.exports =
